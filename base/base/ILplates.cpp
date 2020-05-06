@@ -1,14 +1,11 @@
-/*ILplates.cpp*/
 
-//
+// Illinois License Plate Search
 // Hashing functions to store (license plate, amount) pairs
 // using linear probing.
 //
-
 #include <iostream>
 #include <string>
 #include "ILplates.h"
-
 using namespace std;
 
 //
@@ -16,7 +13,6 @@ using namespace std;
 //
 // Given the plate in a string, returns whether or not the plate is a valid plate, 
 //  also return whether it is a personalized or vanity plate which is stored asa string into the address of a string that is passed in
-//
 //
 bool isCorrectFormat(string plate, string &licenseType, string &firstLetters, string &secondNumbers){
 

@@ -1,4 +1,3 @@
-/*main.cpp*/
 
 //
 // Hashing program for specialized Illinois license plates,
