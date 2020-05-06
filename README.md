@@ -1,6 +1,6 @@
 # Illinois License Plate Search
 ## About
-This program uses hashing to efficiently process fines against cars with specialized Illinois license plates. It uses an implementation of a hashtable data structure and a hash function to yield O(1) retrieval of total fines associated with a given specialized plate. 
+This program uses a hashing algorithm to process fines against cars with specialized Illinois license plates. It uses an implementation of a hashtable data structure and a hash function to yield O(1) retrieval of total fines associated with a given specialized plate. 
 
 ## How it works
 User is prompted to enter a hash table size which the hashing algorithm uses to build the hash table. The user also enters a .txt filename parse through data (license plates and each fine).
@@ -60,4 +60,9 @@ Probes: 6
 Stores: 6
 Elements: 5
 ```
+Number of probes indicate how many times the program probed the hashtable and how well the hash function is working.
+In the above example, there were 6 license plates stored for 6 probes, meaning there were no collisions.
+
+The number of probes should rougly be double the amount of valid license plates.
+
 ## How to run(from command-line)
