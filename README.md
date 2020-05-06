@@ -63,7 +63,7 @@ Elements: 5
 Number of probes indicate how many times the program probed the hashtable and how well the hash function is working.
 In the above example, there were 6 license plates stored for 6 probes, meaning there were no collisions.
 
-The number of probes should rougly be double the amount of valid license plates.
+For an efficient implementation, the number of probes should rougly be double the amount of valid license plates.
 
 ## How to run(from command-line)
 Use the makefile by entering:
