@@ -1,4 +1,4 @@
-# Illinois License Plate Search
+# Illinois License Plate Fines Search
 ## About
 This program uses a hashing algorithm to process fines against cars with specialized Illinois license plates. It uses an implementation of a hashtable data structure and a hash function to yield O(1) retrieval of total fines associated with a given specialized plate. 
 
