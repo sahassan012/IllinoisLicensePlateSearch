@@ -38,4 +38,26 @@ Here is an example:
 "ZZZZZ 1" $100
 ```
 
+Once program is run, it starts by prompting user for two values: hashtable size and filename. 
+For example:
+```console
+$ Enter hastable size> 150000
+$ Enter base filename> tickets1
+```
+The input file is base filename with ".txt" appended.
+The output file is base filename with "-output.txt" appended.
+
+Once this is entered, the program will read from the input file, sort, and store into the hashtable.
+```console
+Reading 'tickets1.txt'...
+Sorting...
+Writing 'tickets1-output.txt'...
+```
+Finally, it will display some "Hashing Stats" that will help identify the statistics of the hashing algorithm.
+```console
+**Hashing Stats**
+Probes: 6
+Stores: 6
+Elements: 5
+```
 ## How to run(from command-line)
