@@ -66,3 +66,14 @@ In the above example, there were 6 license plates stored for 6 probes, meaning t
 The number of probes should rougly be double the amount of valid license plates.
 
 ## How to run(from command-line)
+Use the makefile by entering:
+```console
+make
+```
+
+This will compile the program and create an executable file : ``program.exe``
+
+Run the executable by entering:
+```console
+./program.exe
+```
